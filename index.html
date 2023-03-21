@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./script.js"></script>
+	<title>HIIT WebApp</title>
+</head>
+<body>
+	<div class="header-wrapper">
+		<p class="header">HIIT WebApp</p>
+	</div>
+	<div class="interval-timer-wrapper">
+		<p class="timer-text">0:<span id="sprint-seconds">30</span></p>
+		<p class="timer-text"><span id="rest-minutes">3</span>:<span id="rest-seconds">00</span></p>
+		<p class="interval-tracker-text">You have completed <span id="interval-tracker">0</span> interval(s)!</p>
+  </div>
+  <div class="buttons-wrapper">
+		<button class="timer-buttons" id="start-timer">Start</button>
+    	<button class="timer-buttons" id="stop-timer">Stop</button>
+    	<button class="timer-buttons" id="reset-timer">Reset</button>
+  </div>
+</body>

@@ -1,0 +1,80 @@
+:root {
+	--primary: #222226;
+	--secondary: #939EBF;
+	--tertiary: #593A27;
+	--highlight: #A63232;
+	--text: #fff;
+}
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	background-color: var(--primary);
+	color: var(--text);
+}
+
+.header-wrapper {
+	display: block;
+	text-align: center;
+	font-size: 1.5rem;
+  padding: 0 15px;
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
+}
+
+.interval-timer-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.timer-text {
+  font-size: 2.2rem;
+  border: 3px solid var(--text);
+  border-radius: 30px;
+  width: 150px;
+  margin: 15px auto;
+  padding: 10px 0;
+}
+
+#interval-tracker {
+  font-weight: bold;
+}
+
+.timer-buttons {
+  border: transparent;
+  border-radius: 7px;
+  width: 75px;
+  height: 40px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  transition-duration: 0.5s;
+}
+
+.timer-buttons:hover {
+  cursor: pointer;
+}
+
+#start-timer:hover {
+  background-color: green;
+}
+
+#start-timer:active {
+  background-color: lightgreen;
+}
+
+#stop-timer:hover {
+  background-color: red;
+}
+
+#stop-timer:active {
+  background-color: pink;
+}
+
+#reset-timer:hover {
+  background-color: lightgrey;
+}
+
+#reset-timer:active {
+  background-color: #fff;
+}
