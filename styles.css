@@ -19,8 +19,6 @@ body {
 	text-align: center;
 	font-size: 1.5rem;
   padding: 0 15px;
-  text-decoration: underline;
-  text-decoration-color: var(--secondary);
 }
 
 .interval-timer-wrapper {
@@ -49,6 +47,8 @@ body {
   background-color: var(--secondary);
   color: var(--primary);
   transition-duration: 0.5s;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .timer-buttons:hover {
